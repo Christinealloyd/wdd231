@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Christine Lloyd | WDD231 Homepage" />
+  <meta name="author" content="Christine Lloyd" />
+  <title>Christine Lloyd | WDD231</title>
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/profilepicture.jpg" alt="Christine Lloyd">
+    <span>Christine A. Lloyd</span>
+  </header>
+  <nav>
+    <button id="menu"></button>
+    <ul class="navigation">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Final</a></li>
+      <li><a href="https://github.com/Christinealloyd">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/christine-lloyd-04079229b/">LinkedIn</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Home</h1>
+  
+    <div class="card-container">
+      <section class="card">
+        <h2>Course Work</h2>
+        <ul>
+          <li>Course 1</li>
+          <li>Course 2</li>
+          <li>Course 3</li>
+        </ul>
+      </section>
+  
+      <section class="card">
+        <h2>Johannesburg, South Africa</h2>
+        <img src="images/Johannesburg.jpg" alt="Johannesburg City">
+        <p>Johannesburg City</p>
+      </section>
+    </div>
+
+    <section>
+      <h2>Web and Computer Programming Certificate</h2>
+      <div class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="CSE">CSE</button>
+        <button data-filter="WDD">WDD</button>
+      </div>
+      <div id="course-container"></div>
+      <p>Total Credits: <span id="totalCredits">0</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Christine Lloyd 🌺 South Africa</p>
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+</html>
