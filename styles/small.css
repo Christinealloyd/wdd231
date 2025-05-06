@@ -14,11 +14,28 @@ body {
   }
   
   header img {
-    height: 100px;
     margin-right: 1rem;
     border-radius: 50%;
+    height: 100px;
   }
   
+  .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 100%;
+      max-width: 400px;
+      box-sizing: border-box;
+      text-align: center;
+  }
+
+  .card img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
+
   nav {
     background: black;
     color: white;
@@ -36,6 +53,7 @@ body {
     display: none;
     list-style: none;
     padding: 0;
+    
   }
   
   .navigation.open {

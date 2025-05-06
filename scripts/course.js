@@ -29,14 +29,12 @@ const courses = [
   
     totalEl.textContent = total;
   }
-  
-  // Event listeners for filter buttons
+
   document.querySelectorAll(".filters button").forEach(btn => {
     btn.addEventListener("click", () => {
       renderCourses(btn.dataset.filter);
     });
   });
   
-  // Initial load
   renderCourses("all");
   
