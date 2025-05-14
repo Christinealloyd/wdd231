@@ -125,3 +125,25 @@ footer {
 .social-icons img:hover {
   transform: scale(1.1);
 }
+
+.list-view {
+  display: block;
+}
+
+.list-view .list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
+  background-color: #f1f9f9;
+}
+
+.list-view .list-row h3,
+.list-view .list-row p,
+.list-view .list-row a {
+  flex: 1 1 200px;
+  margin: 0.25rem 1rem;
+  text-align: left;
+}
