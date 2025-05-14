@@ -12,12 +12,6 @@ header, footer {
   padding: 1rem;
 }
 
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
 h1, h2 {
   text-align: center;
 }
