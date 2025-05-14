@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/chambersmall.css">
     <link rel="stylesheet" href="styles/chamberlarge.css">
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Johannesburg Chamber Directory" />
     <meta property="og:description" content="Explore and connect with local businesses in Johannesburg." />
@@ -16,16 +17,19 @@
     <meta property="og:url" content="https://christinealloyd.github.io/wdd231/chamber/directory.html" />
 </head>
 <body>
-  <header>
-    <h1>Johannesburg Chamber of Commerce</h1>
+  <header class="header-top">
+    <div class="header-container">
+      <h1>Johannesburg Chamber of Commerce</h1>
+      <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+    </div>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="directory.html" class="active">Directory</a>
-      <a href="join.html">Join</a>
-      <a href="discover.html">Discover</a>
-    </nav>
-  </header>
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="directory.html" class="active">Directory</a>
+    <a href="join.html">Join</a>
+    <a href="discover.html">Discover</a>
+  </nav>
+</header>
 
   <main>
     <h2>Business Directory</h2>
@@ -40,8 +44,26 @@
   </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> Johannesburg Chamber of Commerce | WDD 231 | Christine Lloyd</p>
-    <p>Last Modified: <span id="lastModified"></span></p>
+    <div class="footer-wrapper">
+    <div class="footer-section contact-info">
+      <p><strong>Johannesburg Chamber of Commerce</strong></p>
+      <p>123 Market Street<br>Johannesburg, South Africa</p>
+      <p>Email: <a href="mailto:info@joburgcc.org">info@joburgcc.org</a></p>
+      <p>Phone: +27 11 555 1234</p>
+    </div>
+
+    <div class="footer-section social-icons">
+      <a href="https://facebook.com/" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook icon"></a>
+      <a href="https://x.com/" aria-label="Twitter"><img src="images/twitter.png" alt="Twitter icon"></a>
+      <a href="https://www.linkedin.com/in/christine-lloyd-04079229b/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn icon"></a>
+    </div>
+
+    <div class="footer-section credits">
+      <p>&copy; <span id="year"></span> Johannesburg Chamber of Commerce</p>
+      <p>WDD 231 | Christine Lloyd</p>
+      <p>Last Modified: <span id="lastModified"></span></p>
+    </div>
+  </div>
   </footer>
     
 </body>
