@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Vodacom Group Ltd",
+    "address": "Bond House, 14 New St, Ghandi Square, Marshalltown, Johannesburg, 2107",
+    "phone": "011 836 7272",
+    "website": "https://www.vodacom.com/",
+    "image": "https://www.vodacom.co.za/themes/custom/blip/img/menu/vodacom-logo.png",
+    "membership": 1
+  },
+  {
+    "name": "ASG IT Solutions Pvt Ltd",
+    "address": "Cnr Monument & Dann Rd Kempton Park, 1620 Gauteng, South Africa",
+    "phone": "011 975 7521",
+    "website": "https://www.asg.co.za/",
+    "image": "https://cdn-bgebd.nitrocdn.com/CFzDFEMwrgqgvmwkmOicHukGcKNSNAWK/assets/images/optimized/rev-75a2054/www.asg.co.za/wp-content/uploads/2020/06/asg-logo.png",
+    "membership": 1
+  },
+  {
+    "name": "Sanlam Pvt Ltd",
+    "address": "Sanlam Head Office 2 Strand Road, Bellville",
+    "phone": "021 947 9111",
+    "website": "https://www.sanlam.co.za/Pages/default.aspx#",
+    "image": "https://www.sanlam.co.za/Style%20Library/img/sanlam-logo.png",
+    "membership": 1
+  },
+  {
+    "name": "Sappi Ltd",
+    "address": "108 Oxford Rd, Rosebank, Johannesburg, 2198",
+    "phone": "011 407 8111",
+    "website": "https://www.sappi.com/en-za/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Logo_of_Sappi_Limited_%28company%29.svg/1200px-Logo_of_Sappi_Limited_%28company%29.svg.png",
+    "membership": 2
+  },
+  {
+    "name": "Barloworld Pvt Ltd",
+    "address": "61 Katherine Street, Sandton, Johannesburg, South Africa",
+    "phone": "0800 003248",
+    "website": "https://barloworld.com/contact-us/barloworld-limited/",
+    "image": "https://images.seeklogo.com/logo-png/31/1/barloworld-logo-png_seeklogo-316191.png",
+    "membership": 3
+  },
+  {
+    "name": "Mediclinic corporatio",
+    "address": "25 Du Toit St, Stellenbosch Central, Stellenbosch, 7600",
+    "phone": "0860 24 00 24",
+    "website": "https://www.mediclinic.co.za/",
+    "image": "https://www.mediclinic.co.za/content/dam/mc-me-corporate/logos/re-design/logo-mediclinic-web.png",
+    "membership": 2
+  },
+  {
+    "name": "Anglo Gold Ashanti Solutions",
+    "address": "112 Oxford Road, Houghton Estate, 2198",
+    "phone": "011 637 6000",
+    "website": "https://www.anglogoldashanti.com/",
+    "image": "https://assets.weforum.org/organization/image/q-v_uF98Vr8O_BPTa1t3GupkjJ4d2QPzoAK4DW9--c4.jpg",
+    "membership": 3
+  }
+]

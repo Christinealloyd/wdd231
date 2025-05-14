@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.view-toggle {
+  text-align: center;
+  margin: 1rem;
+}
+
+#directory {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.member {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.member img {
+  max-width: 100px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+

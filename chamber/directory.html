@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christine Lloyd | WDD231 Chamber Of Commerce Site">
+    <meta name="author" content="Christine Lloyd" >
+    <title>Christine Lloyd | WDD231 Chamber Directroy Page</title>
+    <link rel="stylesheet" href="styles/chambersmall.css">
+    <link rel="stylesheet" href="styles/chamberlarge.css">
+    <script src="scripts/directory.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Johannesburg Chamber Directory" />
+    <meta property="og:description" content="Explore and connect with local businesses in Johannesburg." />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+</head>
+<body>
+  <header>
+    <h1>Johannesburg Chamber of Commerce</h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="directory.html" class="active">Directory</a>
+      <a href="join.html">Join</a>
+      <a href="discover.html">Discover</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Business Directory</h2>
+    <div class="view-toggle">
+      <button id="grid">Grid View</button>
+      <button id="list">List View</button>
+    </div>
+
+    <section id="directory" class="grid-view">
+      <!-- JS will inject cards here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Johannesburg Chamber of Commerce | WDD 231 | Christine Lloyd</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+    
+</body>
+</html>
