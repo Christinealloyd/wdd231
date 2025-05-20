@@ -92,5 +92,22 @@
   padding: 1rem 2rem;
 }
 
+.current-events {
+  padding: 3rem;
+}
+
+.current-events h2 {
+  font-size: 2.2rem;
+}
+
+.current-events li {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.current-events li:hover {
+  transform: translateX(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
 
 }
