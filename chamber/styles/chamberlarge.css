@@ -50,6 +50,47 @@
     justify-content: center;
     gap: 2rem;
   }
-
+/* ADD ON */
+.weather {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: start;
 }
 
+#current-weather, #forecast {
+  text-align: left;
+}
+
+.spotlight-cards {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.spotlight-card {
+  width: 250px;
+  margin: 1rem;
+}
+
+.hero {
+  height: 75vh;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+}
+
+.cta-button {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+}
+
+
+}
