@@ -1,4 +1,3 @@
-// ========== Weather Fetch (OpenWeatherMap) ==========
 const apiKey = '79c0ceae4f9d73b952d59786029584bb'; 
 const cityId = '993800';
 
@@ -50,7 +49,7 @@ function displayForecast(data) {
   container.innerHTML = forecastHTML;
 }
 
-// ========== Spotlight Members ==========
+
 async function loadSpotlights() {
   try {
     const res = await fetch('data/members.json');
