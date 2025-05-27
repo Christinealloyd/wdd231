@@ -1,72 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Christine Lloyd | WDD231 Chamber Of Commerce Site">
-    <meta name="author" content="Christine Lloyd" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Christine Lloyd | WDD231 Chamber Of Commerce Site" />
+    <meta name="author" content="Christine Lloyd" />
     <title>Christine Lloyd | WDD231 Johannesburg Chamber of Commerce</title>
-    <link rel="stylesheet" href="styles/chambersmall.css">
-    <link rel="stylesheet" href="styles/chamberlarge.css">
+    <link rel="stylesheet" href="styles/chambersmall.css" />
+    <link rel="stylesheet" href="styles/chamberlarge.css" />
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/join.js" defer></script>
-    <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Johannesburg Chamber of Commerce Directory">
-    <meta property="og:description" content="Explore and connect with local businesses in Johannesburg, South Africa.">
-    <meta property="og:image" content="https://christinealloyd.github.io/wdd231/chamber/images/johannesburg.jpg">
-    <meta property="og:url" content="https://christinealloyd.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="favicon.ico" />
+    <meta property="og:title" content="Johannesburg Chamber of Commerce Directory" />
+    <meta property="og:description" content="Explore and connect with local businesses in Johannesburg, South Africa." />
+    <meta property="og:image" content="https://christinealloyd.github.io/wdd231/chamber/images/johannesburg.jpg" />
+    <meta property="og:url" content="https://christinealloyd.github.io/wdd231/chamber/directory.html" />
 </head>
 <body>
-    
     <header class="header-top">
         <div class="header-container">
-        <h1>Johannesburg Chamber of Commerce</h1>
-        <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+            <h1>Johannesburg Chamber of Commerce</h1>
+            <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
         </div>
 
-    <nav id="navMenu">
-        <a href="index.html">Home</a>
-        <a href="directory.html" class="active">Directory</a>
-        <a href="join.html">Join</a>
-        <a href="discover.html">Discover</a>
-    </nav>
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
     </header>
 
     <form method="get" action="thankyou.html">
         <div class="form-group">
             <label>First Name:
-                <input type="text" name="fname" title="First Name" required autocomplete="given-name">
+                <input type="text" name="fname" title="First Name" required autocomplete="given-name" />
             </label>
         </div>
 
         <div class="form-group">
             <label>Last Name:
-                <input type="text" name="lname" title="Last Name" required autocomplete="family-name">
+                <input type="text" name="lname" title="Last Name" required autocomplete="family-name" />
             </label>
         </div>
 
         <div class="form-group">
             <label>Title/Position:
-                <input type="text" name="title" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+                <input type="text" name="title" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" />
             </label>
         </div>
 
         <div class="form-group">
             <label>Email:
-                <input type="email" name="email" title="Email Address" required autocomplete="email" placeholder="you@example.com">
+                <input type="email" name="email" title="Email Address" required autocomplete="email" placeholder="you@example.com" />
             </label>
         </div>
 
         <div class="form-group">
             <label>Mobile Phone:
-                <input type="tel" name="phone" title="Mobile Number" required autocomplete="tel">
+                <input type="tel" name="phone" title="Mobile Number" required autocomplete="tel" />
             </label>
         </div>
 
         <div class="form-group">
             <label>Organization Name:
-                <input type="text" name="organization" title="Business/Organization Name" required autocomplete="organization">
+                <input type="text" name="organization" title="Business/Organization Name" required autocomplete="organization" />
             </label>
         </div>
 
@@ -87,13 +86,12 @@
             </label>
         </div>
 
-        <input type="hidden" name="timestamp" id="timestamp">
+        <input type="hidden" name="timestamp" id="timestamp" />
 
         <div class="form-group">
-            <input type="submit" value="Apply for Membership">
+            <input type="submit" value="Apply for Membership" />
         </div>
     </form>
-
 
     <section class="membership-cards">
         <div class="card" id="npCard">
@@ -108,18 +106,18 @@
         </div>
         <div class="card" id="silverCard">
             <h3>Silver Membership</h3>
-            <p>Includes trainings & events.</p>
+            <p>Includes trainings &amp; events.</p>
             <a href="#silverModal">Learn More</a>
         </div>
         <div class="card" id="goldCard">
             <h3>Gold Membership</h3>
-            <p>Spotlights, ads & full perks!</p>
+            <p>Spotlights, ads &amp; full perks!</p>
             <a href="#goldModal">Learn More</a>
         </div>
     </section>
 
     <!-- Modals -->
-    <div id="npModal" class="modal">
+    <div id="npmodal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('npModal')">&times;</span>
             <h3>NP Membership Benefits</h3>
@@ -127,7 +125,7 @@
         </div>
     </div>
 
-    <div id="bronzeModal" class="modal">
+    <div id="bronzemodal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('bronzeModal')">&times;</span>
             <h3>Bronze Membership Benefits</h3>
@@ -135,7 +133,7 @@
         </div>
     </div>
 
-    <div id="silverModal" class="modal">
+    <div id="silvermodal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('silverModal')">&times;</span>
             <h3>Silver Membership Benefits</h3>
@@ -143,37 +141,35 @@
         </div>
     </div>
 
-    <div id="goldModal" class="modal">
+    <div id="goldmodal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('goldModal')">&times;</span>
             <h3>Gold Membership Benefits</h3>
-            <p>Everything above + homepage spotlight, ads & early registrations.</p>
+            <p>Everything above + homepage spotlight, ads &amp; early registrations.</p>
         </div>
     </div>
-</main>
-
 
     <footer>
         <div class="footer-wrapper">
-        <div class="footer-section contact-info">
-        <p><strong>Johannesburg Chamber of Commerce</strong></p>
-        <p>123 Market Street<br>Johannesburg, South Africa</p>
-        <p>Email: <a href="mailto:info@joburgcc.org">info@joburgcc.org</a></p>
-        <p>Phone: +27 11 555 1234</p>
-        </div>
+            <div class="footer-section contact-info">
+                <p><strong>Johannesburg Chamber of Commerce</strong></p>
+                <p>123 Market Street<br />Johannesburg, South Africa</p>
+                <p>Email: <a href="mailto:info@joburgcc.org">info@joburgcc.org</a></p>
+                <p>Phone: +27 11 555 1234</p>
+            </div>
 
-        <div class="footer-section social-icons">
-        <a href="https://facebook.com/" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook icon"></a>
-        <a href="https://x.com/" aria-label="Twitter"><img src="images/twitter.png" alt="Twitter icon"></a>
-        <a href="https://www.linkedin.com/in/christine-lloyd-04079229b/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn icon"></a>
-        </div>
+            <div class="footer-section social-icons">
+                <a href="https://facebook.com/" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook icon" /></a>
+                <a href="https://x.com/" aria-label="Twitter"><img src="images/twitter.png" alt="Twitter icon" /></a>
+                <a href="https://www.linkedin.com/in/christine-lloyd-04079229b/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn icon" /></a>
+            </div>
 
-        <div class="footer-section credits">
-        <p>&copy; <span id="year"></span> Johannesburg Chamber of Commerce</p>
-        <p>WDD 231 | Christine Lloyd</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+            <div class="footer-section credits">
+                <p>&copy; <span id="year"></span> Johannesburg Chamber of Commerce</p>
+                <p>WDD 231 | Christine Lloyd</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
         </div>
-    </div>
-
+    </footer>
 </body>
 </html>
