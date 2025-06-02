@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #b71c1c;
+}
+
+h1 {
+  border-bottom: 2px solid #f9a825;
+  padding-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.color-box {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
