@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christine Lloyd | WDD231 Chamber Of Commerce Site">
+    <meta name="author" content="Christine Lloyd" >
+    <title>Christine Lloyd | WDD231 Johannesburg Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/chambersmall.css">
+    <link rel="stylesheet" href="styles/chamberlarge.css">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Johannesburg Chamber of Commerce Directory">
+    <meta property="og:description" content="home page for the chamber of commerce in Johannesburg, South Africa.">
+    <meta property="og:image" content="https://christinealloyd.github.io/wdd231/chamber/images/johannesburg.jpg">
+    <meta property="og:url" content="https://christinealloyd.github.io/wdd231/chamber/directory.html">
+</head>
+<body>
+ 
+   <header class="header-top">
+        <div class="header-container">
+            <h1>Johannesburg Chamber of Commerce</h1>
+            <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+        </div>
+
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+
+    <main class="discover-container">
+        <aside class="visitor-message" id="visitor-message">
+            <!-- JS will insert message here -->
+        </aside>
+        <section class="gallery">
+            <!-- Cards will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-section contact-info">
+                <p><strong>Johannesburg Chamber of Commerce</strong></p>
+                <p>123 Market Street<br>Johannesburg, South Africa</p>
+                <p>Email: <a href="mailto:info@joburgcc.org">info@joburgcc.org</a></p>
+                <p>Phone: +27 11 555 1234</p>
+            </div>
+
+            <div class="footer-section social-icons">
+                <a href="https://facebook.com/" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook icon"></a>
+                <a href="https://x.com/" aria-label="Twitter"><img src="images/twitter.png" alt="Twitter icon"></a>
+                <a href="https://www.linkedin.com/in/christine-lloyd-04079229b/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn icon"></a>
+            </div>
+
+            <div class="footer-section credits">
+                <p>&copy; <span id="year"></span> Johannesburg Chamber of Commerce</p>
+                <p>WDD 231 | Christine Lloyd</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

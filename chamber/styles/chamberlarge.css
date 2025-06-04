@@ -50,7 +50,7 @@
     justify-content: center;
     gap: 2rem;
   }
-/* ADD ON */
+
 .weather {
   max-width: 900px;
   margin: 2rem auto;
@@ -109,5 +109,11 @@
   transform: translateX(10px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
+  .gallery img:hover {
+    filter: grayscale(30%) brightness(1.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
 
 }

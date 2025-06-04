@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Apartheid Museum",
+    "image": "images/apartheid.webp",
+    "address": "Northern Parkway and Gold Reef Rd, Ormonde, Johannesburg",
+    "description": "A powerful museum documenting South Africa's apartheid era.",
+    "link": "https://www.apartheidmuseum.org/"
+  },
+  {
+    "name": "Gold Reef City",
+    "image": "images/goldreef.webp",
+    "address": "Cnr Northern Parkway & Data Crescent, Johannesburg",
+    "description": "A theme park and casino offering rides and entertainment.",
+    "link": "https://www.goldreefcity.co.za/"
+  },
+  {
+    "name": "Constitution Hill",
+    "image": "images/constitutionhill.webp",
+    "address": "11 Kotze Street, Braamfontein, Johannesburg",
+    "description": "Historic site and former prison that is now a museum.",
+    "link": "https://www.constitutionhill.org.za/"
+  },
+  {
+    "name": "Johannesburg Zoo",
+    "image": "images/zoo.webp",
+    "address": "Jan Smuts Avenue, Parkview, Johannesburg",
+    "description": "Large zoo with a wide variety of animal exhibits.",
+    "link": "https://www.jhbcityparksandzoo.com/services-facilities/zoo/about"
+  },
+  {
+    "name": "Lion Park",
+    "image": "images/lionpark.webp",
+    "address": "R114, Honeydew, Johannesburg",
+    "description": "Get up close with lions and other African wildlife.",
+    "link": "https://lionandsafaripark.com/"
+  },
+  {
+    "name": "Nelson Mandela Square",
+    "image": "images/mandelasquare.webp",
+    "address": "Sandton, Johannesburg",
+    "description": "Popular square with restaurants and a Mandela statue.",
+    "link": "https://nelsonmandelasquare.co.za/"
+  },
+  {
+    "name": "Maboneng Precinct",
+    "image": "images/maboneng.webp",
+    "address": "Maboneng, Johannesburg",
+    "description": "Trendy neighborhood full of art galleries and eateries.",
+    "link": "https://mabonengprecinct.com/"
+  },
+  {
+    "name": "Wits Art Museum",
+    "image": "images/witsart.webp",
+    "address": "University Corner, Braamfontein, Johannesburg",
+    "description": "Collection of African contemporary art and exhibits.",
+    "link": "https://www.wits.ac.za/wam/"
+  }
+]
