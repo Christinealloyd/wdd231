@@ -5,12 +5,20 @@ document.addEventListener("DOMContentLoaded", () => {
   if (visitDisplay) {
     const lastVisit = localStorage.getItem("lastVisit");
     const now = Date.now();
+    const MILLISECONDS_IN_A_DAY = 1000 * 60 * 60 * 24;
 
-    if (lastVisit) {
-      const daysSince = Math.floor((now - parseInt(lastVisit)) / (1000 * 60 * 60 * 24));
-      visitDisplay.textContent = `Welcome back! It's been ${daysSince} day(s) since your last visit.`;
+    if (!lastVisit) {
+      visitDisplay.textContent = "Welcome! Let us know if you have any questions.";
     } else {
-      visitDisplay.textContent = "Welcome! This is your first time visiting this page.";
+      const daysSince = Math.floor((now - parseInt(lastVisit)) / MILLISECONDS_IN_A_DAY);
+      
+      if (daysSince < 1) {
+        visitDisplay.textContent = "Back so soon! Awesome!";
+      } else if (daysSince === 1) {
+        visitDisplay.textContent = "You last visited 1 day ago.";
+      } else {
+        visitDisplay.textContent = `You last visited ${daysSince} days ago.`;
+      }
     }
 
     localStorage.setItem("lastVisit", now.toString());
