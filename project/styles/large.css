@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .craft {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .craft img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+
+  #modal .modal-content {
+    max-width: 600px;
+  }
+
+  .hero {
+    max-height: 450px;
+  }
+}

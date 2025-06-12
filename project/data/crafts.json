@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "title": "Paper Plate Sun",
+    "description": "A cheerful sun made from a paper plate and yellow construction paper.",
+    "materials": ["Paper plate", "Yellow paint", "Construction paper", "Glue", "Scissors"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Paint the paper plate yellow and let it dry.",
+      "Cut out triangle rays from the construction paper.",
+      "Glue the rays around the edge of the plate.",
+      "Draw or glue a face in the center if desired."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Toilet Roll Binoculars",
+    "description": "Fun pretend binoculars made using toilet rolls and yarn.",
+    "materials": ["2 toilet paper rolls", "Yarn", "Tape", "Stickers or markers"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Tape the two toilet rolls side-by-side.",
+      "Decorate the rolls using stickers or markers.",
+      "Punch a hole in the outer edges and tie yarn for a neck strap."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Button Art Canvas",
+    "description": "Create a shape or letter using colorful buttons on a canvas.",
+    "materials": ["Canvas", "Buttons", "Glue", "Pencil for outline"],
+    "difficulty": "Medium",
+    "instructions": [
+      "Draw your design outline on the canvas with pencil.",
+      "Apply glue inside the outline area.",
+      "Stick buttons onto the glued area until the design is filled.",
+      "Let it dry completely before displaying."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Egg Carton Flowers",
+    "description": "Recycle egg cartons into painted flowers for decoration.",
+    "materials": ["Egg carton", "Scissors", "Paint", "Pipe cleaners", "Glue"],
+    "difficulty": "Medium",
+    "instructions": [
+      "Cut flower shapes from the egg carton cups.",
+      "Paint the flower shapes and let dry.",
+      "Poke a hole in the center and insert pipe cleaner for the stem.",
+      "Glue if needed to hold it in place."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Popsicle Stick Puzzle",
+    "description": "Create a small puzzle by drawing a picture on lined-up sticks.",
+    "materials": ["Popsicle sticks", "Markers", "Tape", "Paper (optional)"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Line up popsicle sticks side-by-side and tape the back to hold them together.",
+      "Flip and draw a picture or pattern on the front.",
+      "Remove the tape and mix the sticks up to make a puzzle."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Tissue Paper Stained Glass",
+    "description": "Simulate stained glass using tissue paper and wax paper.",
+    "materials": ["Tissue paper", "Wax paper", "Glue", "Scissors", "Black paper for frame"],
+    "difficulty": "Medium",
+    "instructions": [
+      "Cut tissue paper into small shapes.",
+      "Glue the tissue pieces onto wax paper in a colorful pattern.",
+      "Cut a frame from black paper and glue it on top.",
+      "Hang in a window for sunlight to shine through."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Handprint Tree",
+    "description": "Create a tree with painted handprints for leaves.",
+    "materials": ["Paper", "Paint", "Marker or brown paint for trunk"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Draw or paint a tree trunk on paper.",
+      "Dip hands in different colored paint and press above the trunk as leaves.",
+      "Let it dry and display your fall or spring tree."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Paper Roll Butterfly",
+    "description": "Make a butterfly from a toilet paper roll and decorated paper wings.",
+    "materials": ["Toilet paper roll", "Construction paper", "Pipe cleaners", "Googly eyes", "Glue", "Markers"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Wrap and decorate the toilet paper roll as the butterfly body.",
+      "Cut out wing shapes from paper and decorate them.",
+      "Glue the wings onto the back of the roll.",
+      "Add pipe cleaner antennae and eyes to complete it."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Salt Dough Ornaments",
+    "description": "Create ornaments with salt dough and paint them.",
+    "materials": ["Flour", "Salt", "Water", "Cookie cutters", "Paint", "String"],
+    "difficulty": "Medium",
+    "instructions": [
+      "Mix flour, salt, and water to make dough.",
+      "Roll out dough and cut shapes with cookie cutters.",
+      "Make a hole at the top for string, then bake until hard.",
+      "Paint and decorate once cool."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Paper Bag Puppet",
+    "description": "Make a puppet using a paper lunch bag and decorations.",
+    "materials": ["Paper bag", "Construction paper", "Glue", "Crayons", "Googly eyes"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Decorate the flap of the bag as the puppet’s face.",
+      "Add eyes, ears, mouth, and hair using cut paper and glue.",
+      "Color the body section and arms.",
+      "Let dry before using as a puppet."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Clothespin Airplanes",
+    "description": "Build mini airplanes with clothespins and craft sticks.",
+    "materials": ["Clothespins", "Craft sticks", "Glue", "Markers"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Glue one craft stick horizontally on each side of the clothespin for wings.",
+      "Add a smaller stick on top/back as the tail.",
+      "Decorate with colors or stickers.",
+      "Let glue dry before playing."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Pom-Pom Caterpillar",
+    "description": "Create a fuzzy caterpillar from pom-poms and googly eyes.",
+    "materials": ["Pom-poms", "Glue", "Googly eyes", "Pipe cleaners", "Cardstock"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Glue pom-poms in a line on a strip of cardstock.",
+      "Add eyes and pipe cleaner antennae to the front pom.",
+      "Let it dry and bend into fun shapes."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Coffee Filter Flowers",
+    "description": "Make beautiful flowers using dyed coffee filters.",
+    "materials": ["Coffee filters", "Markers", "Water spray bottle", "Pipe cleaners"],
+    "difficulty": "Medium",
+    "instructions": [
+      "Color filters with markers and spray lightly with water.",
+      "Let dry completely.",
+      "Fold and twist into flower shapes.",
+      "Wrap with pipe cleaner to make stems."
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Pasta Necklaces",
+    "description": "Color pasta and string it into wearable necklaces.",
+    "materials": ["Dry pasta", "Food coloring", "Rubbing alcohol", "String", "Plastic bags"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Mix pasta with food coloring and a splash of alcohol in a plastic bag.",
+      "Let pasta dry on a tray.",
+      "String dried pasta to make necklaces or bracelets."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Rock Painting",
+    "description": "Decorate rocks with fun colors, faces, or messages.",
+    "materials": ["Smooth rocks", "Acrylic paint", "Paintbrushes", "Sealer (optional)"],
+    "difficulty": "Easy",
+    "instructions": [
+      "Wash and dry rocks.",
+      "Paint designs, faces, or words on the surface.",
+      "Let dry and seal for outdoor use if desired."
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Christine Lloyd | WDD231 Homepage">
+  <meta name="author" content="Christine Lloyd">
+  <title>Christine Lloyd | WDD231 Project</title>
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script src="scripts/fetch.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/modal.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Crafting Joy</h1>
+    <nav>
+      <button id="menu">&#9776;</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<main>
+  <h2>Join Crafting Joy</h2>
+  <form action="thanks.html" method="get" class="join-form">
+    <div>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required>
+    </div>
+    <div>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+    </div>
+    <div>
+      <button type="submit">Join</button>
+    </div>
+  </form>
+</main>
+
+
+  <footer>
+    <p>&copy; 2025 Christine Lloyd</p>
+    <a href="attributions.html">Attributions</a> | 
+    <a href="https://youtu.be/YOUR-VIDEO-ID">Project Demo</a>
+  </footer>
+</body>
+</html>
